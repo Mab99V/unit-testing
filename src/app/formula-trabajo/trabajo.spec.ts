@@ -18,14 +18,7 @@ describe('trabajo', () => {
      expect(result).toBe(6);
    })
 
-   //prueba 3, numeros reales positivos
-   it('Fuerza 0.0 por distancia 0.0 = 0', () => {
-     
-     const result = trabajo(0.0,0.0);
-     expect(result).toBe(0);
-   })
-
-   //prueba 4, numeros negativos por positivos
+   //prueba 3, numeros negativos por positivos
     it('Fuerza -2 por distancia 2 = error', () => {
 	    
      const result = trabajo(-2,2);
